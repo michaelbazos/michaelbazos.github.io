@@ -1,0 +1,43 @@
+$gray-dark: #333;
+$blue-light: #337AB7;
+
+.home {
+    background-color: $blue-light;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
+.about-me {
+    color: white;
+
+    &__name {
+        font-size: 4em;
+    }
+
+    &__roles {
+        font-size: 3em;
+    }
+
+    &__location, &__links {
+        font-size: 2em;
+        margin-top: .5em;
+    }
+
+    &__links {
+        > li:hover {
+            color: darkred;
+            cursor: pointer;
+            font-weight: bold;
+        }
+    }
+
+    i {
+        margin-right: .5em;
+    }
+}

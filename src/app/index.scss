@@ -1,0 +1,39 @@
+/**
+ *  If you want to override some bootstrap variables, you have to change values here.
+ *  The list of variables are listed here bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss
+ */
+$icon-font-path: "../../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+/**
+ *  Do not remove the comments below. It's the markers used by wiredep to inject
+ *  sass dependencies when defined in the bower.json of your dependencies
+ */
+// bower:scss
+// endbower
+
+body {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.browsehappy {
+    position: absolute;
+    background: #ccc;
+    color: #000;
+    font-size: 1.5em;
+    padding: 0.2em 0;
+    text-align: center;
+    width: 100%;
+}
+
+main {
+    height: 100vh;
+    min-height: 100vh;
+}
+
+/**
+ *  Do not remove the comments below. It's the markers used by gulp-inject to inject
+ *  all your sass files automatically
+ */
+// injector
+// endinjector

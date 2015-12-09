@@ -1,0 +1,19 @@
+<div class="container flex-container">
+    <section class="about-me center-block">
+        <div class="about-me__name">
+            {{home.infos.name}}
+        </div>
+        <div class="about-me__roles">
+            # <malarkey></malarkey>
+        </div>
+        <div class="about-me__location">
+            <i class="fa fa-street-view"></i>
+            <b>{{home.infos.location}}</b>
+        </div>
+        <ul class="list-inline about-me__links">
+            <li ng-repeat="link in home.infos.links" ng-click="home.open(link.href)">
+                <i class="fa fa-{{link.icon}}"></i>
+            </li>
+        </ul>
+    </section>
+</div>
