@@ -29,7 +29,7 @@
 
             el.addClass('malarkey');
 
-            scope.extraValues = [].concat(['==============']);
+            scope.extraValues = [].concat(['=============']);
             angular.forEach(scope.extraValues, function(value) {
                 typist.type(value).pause().delete();
             });

@@ -10,12 +10,12 @@
 
         var infos = {
             name: 'Michael P. Bazos',
-            location: 'Paris, France',
+            location: 'The Internet',
             links: [
-                {title: 'Github', icon: 'github', href: 'https://github.com/michaelbazos'},
-                {title: 'LinkedIn', icon: 'linkedin', href: 'https://www.linkedin.com/in/michaelbazos'},
                 {title: 'Stack Overflow', icon: 'stack-overflow', href: 'http://stackoverflow.com/users/3120193/michael-p-bazos'},
-                {title: 'Twitter', icon: 'twitter', href: 'https://twitter.com/michaelbazos'}
+                {title: 'LinkedIn', icon: 'linkedin', href: 'https://www.linkedin.com/in/michaelbazos'},
+                {title: 'Twitter', icon: 'twitter', href: 'https://twitter.com/michaelbazos'},
+                {title: 'Github', icon: 'github', href: 'https://github.com/michaelbazos'}
             ],
             roles: ['Contributor', 'Developer', 'Traveler', 'Jogger', 'Sleeper']
         };
